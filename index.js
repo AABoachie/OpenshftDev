@@ -4,7 +4,7 @@ const port = 8080;
 const app = express();
 
 app.use('/', (req, res) =>{
-  res.send('Openshift app');
+  res.send('My first Openshift app!');
 });
 
 app.listen(port, () => {
